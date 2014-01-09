@@ -5,7 +5,7 @@ Easy peasy lemon squeezy dot jay ess
 
 install all the necessary modules (either look at the requires in the code or do it error by error)
 
-run main.js to serve all the content.
+run node main.js to serve all the content.
 
 default port is 1337, but that should change.
 
