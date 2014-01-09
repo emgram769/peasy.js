@@ -14,7 +14,7 @@ var server = http.createServer(app).listen(port, function(){
 });
 var io = socket_io.listen(server);
 var destroy_freq = 259200; // 3 days in seconds
-var destroy_password = "humpdaywhoopwhoop"; // CHANGE THIS!
+var destroy_password = "yeezusisweezus"; // CHANGE THIS
 
 
 /* data variables */
@@ -63,12 +63,12 @@ var merge = function(obj1, obj2) {
 /* scans saved items for old ones */
 var scan_and_destroy = function() {
     var curr_date = new Date().getTime();
-    for (var i in saved_items) {
-        p = saved_items[i];
+    for (var i in saved_data) {
+        p = saved_data[i];
         if (p[destroy_password] &&
             (curr_date - p[destroy_password]) > destroy_freq) {
             console.log("destroying ", p.name, p.id);
-            delete saved_items[i];
+            delete saved_data[i];
         }
     }
 }
