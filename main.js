@@ -6,7 +6,7 @@ var fs = require('fs');
 var schedule = require('node-schedule');
 
 /* global variables */
-var port = 1338;
+var port = 1337;
 var app = express();
 var server = http.createServer(app).listen(port, function(){
     console.log('Express server listening on port %d in %s mode',
