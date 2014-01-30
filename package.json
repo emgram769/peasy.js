@@ -1,0 +1,35 @@
+{
+  "name": "peasy.js",
+  "version": "0.0.0",
+  "description": "A simple server for fast prototyping and live data",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/emgram769/peasy.js.git"
+  },
+  "keywords": [
+    "easy",
+    "peasy",
+    "lemon",
+    "squeezy",
+    "dot",
+    "jay",
+    "ess"
+  ],
+  "author": "Bram Wasti",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.4.7",
+    "logfmt": "~0.18.1",
+    "socket.io": "~0.9.16",
+    "node-schedule": "*"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "4277bb57eba40b236e57bf694f1ebed2ebbd2df3",
+  "bugs": {
+    "url": "https://github.com/emgram769/peasy.js/issues"
+  }
+}
